@@ -1,0 +1,37 @@
+
+#dialogBox {
+    background-color:#75d1c9;
+    left: 850px;
+    top: 400px;
+    position: relative;
+    display: absolute;
+}
+.textarea {
+    color:#ffffff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 900px;
+    margin-top: 400px;
+    width: auto;
+    font-family: arial;
+}
+body {
+    background: cover;
+    position: fixed;
+}
+/*basic reset*/
+* {margin: 0; padding: 0;}
+/*adding a black bg to the body to make things clearer*/
+canvas {display: relative;}
+
+#c{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    overflow: hidden;
+}
